@@ -1,0 +1,485 @@
+.home{
+    font-family: Arial;
+    
+}
+
+
+.div-home h1{
+    font-size: 16px;
+    font-weight: bold;
+    background: #001328;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+ 
+    
+}
+
+.logo .logotipo{
+    width: 180px;
+    height: 90px;
+}
+
+.home .menu-bar{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    color: #343434;
+   
+}
+
+.home .icons{
+    height: auto;
+
+}
+
+
+.icons .bycar{
+    width: 30px;
+}
+
+.icons .login{
+    width: 36px;
+    margin: 0px 20px 0px 20px;
+}
+
+
+.home .menu-bar .menu{
+
+    display: flex;
+    font-size: 15px;
+    font-weight: bolder;
+    justify-content: center;
+     
+  
+}
+
+.menu .menu-center{
+    margin: 0 50px;
+}
+
+
+.banner-center{
+    text-align: center;
+}
+.banner-center .banner{
+    width: 90vw;
+    
+}
+
+/*********************************
+*    SECTION - PRODUCTS
+**********************************/
+
+.products{
+    text-align: center;
+    font-family: arial;
+
+}
+
+.products h1{
+    margin-top: 60px;
+    font-size: 30px;
+    color: #0e3045;
+    font-weight: bold;
+
+}
+
+.products .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+     
+    
+}
+
+.product{
+    border: 2px #aed3db solid;
+    border-radius: 15px;
+    width: 240px;
+    height: auto;
+    margin-top: 40px;
+    padding: 0 15px;
+    
+}
+
+.product .image{
+    width: 220px;
+    height: 220px;
+}
+
+.product h2{
+    color: #3f6c86;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.product h3{
+    color:#0e3045;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 130%;
+    font-size: 18px;
+}
+
+.product .produto-bycar{
+  
+    width: 30px;
+    border: 1px solid black;
+ 
+}
+
+.product .descrition{
+    color: #666666;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 130%;
+    font-size: 13px;
+}
+
+.product .price1{
+    outline-color: #727273;
+    text-decoration: line-through;
+    font-style: italic;
+    opacity: 60%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+.product .price2{
+    color: #45505E;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 120%;
+
+}
+
+.product span{
+    font-weight: bold;
+}
+
+.product .bottom{
+    display: inline-block ;
+    width: 100px ;
+    color: #3f6c86;
+    font-weight: bold;
+    font-size: 18px ;
+    text-decoration: none;
+    border: 2px #45505E solid;
+    border-radius: 50px;
+    padding: 8px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*********************************
+*    SECTION - BANNERS
+**********************************/
+
+.div-banner{
+    display: flex;
+    justify-content: center;
+}
+
+.section-banners .button-banners{
+    display: inline-block;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background: #a65e63;
+    color: white;
+
+    
+}
+
+.banners{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.image01{
+    width: 550px;
+}
+
+/*********************************
+*    SECTION - ALLPRODUCTS
+**********************************/
+
+#allproducts{
+    margin-top: 0px;
+}
+
+.products .grid{
+    display: flex;
+    justify-content: center;
+}
+
+.product2{
+    border: 2px #aed3db solid;
+    border-radius: 15px;
+    width: 240px;
+    height: auto;
+    margin-top: 40px;
+    padding: 0 15px;
+}
+
+.product2 .image{
+    width: 220px;
+    height: 220px;
+}
+
+
+.product2 h2{
+    color: #3f6c86;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.product2 h3{
+    color:#0e3045;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 130%;
+    font-size: 18px;
+}
+
+.product2 .descrition{
+    color: #666666;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 130%;
+    font-size: 13px;
+}
+
+.product2 .price1{
+    outline-color: #727273;
+    text-decoration: line-through;
+    font-style: italic;
+    opacity: 60%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.product2 .price2{
+    color: #45505E;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 120%;
+}
+
+.product2 span{
+    font-weight: bold;
+}
+
+.product2 .bottom{
+    display: inline-block ;
+    width: 100px ;
+    color: #3f6c86;
+    font-weight: bold;
+    font-size: 18px ;
+    text-decoration: none;
+    border: 2px #45505E solid;
+    border-radius: 50px;
+    padding: 8px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.button-products{
+    display: flex;
+    justify-content: center;
+    
+  
+   
+}
+.button-products .button-allproducts{
+    display: flex;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background: #a65e63;
+    color: white;
+      
+}
+
+
+/*********************************
+*    SECTION - FINAL
+**********************************/
+
+.div-final{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.div-final .ervikse-img{
+    width: 90vw;  
+}
+
+.ervikse h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: arial;
+    color: #d4b1a4;
+    margin-top: 10px;
+}
+
+.ervikse h3{
+    font-size: 26px;
+    font-family: arial;
+    color: #45505e;
+    font-weight:100;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+
+.img-grid{
+    width: 280px;
+    height: 280px;
+}
+
+.grid-display{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-final{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: -100px;
+}
+
+
+/****************
+*    FOOTER
+*****************/
+
+.footer{
+    background: #b8dbf1;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  
+}
+
+.footer .div01{
+    width: 350px;
+    
+    
+}
+
+.div-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div01 img{
+    width: 125px;
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.div01 p{
+    display: flex;
+    font-size: 16px;
+    font-family: arial;
+    line-height: 120%;
+    color:#3f3f40;
+    line-height: 150%;
+}
+
+.div02 h3{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: arial;
+    color: #0e3045;
+    margin-bottom: 20px;
+}
+
+.div02 a{
+    display: block;
+    font-size: 16px;
+    font-family: arial;
+    text-decoration: none;
+    color: #000;
+    line-height: 150%;
+    opacity: 60%;
+   
+ 
+}
+
+
+.div03{
+    display: block;
+}
+
+
+.div03 h3{
+
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: arial;
+    color: #0e3045;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.div04 .logo-linkedin{
+    width: 40px;
+    height: 41px;
+    
+}
+
+.icons img{
+    display: inline-block;
+    padding: 0 2px;
+}
+
+
+/****************
+*    BY - DIEGO
+*****************/
+
+.by{
+    display: flex;
+   justify-content: center;
+    background: lightpink;
+  
+}
+
+.by h1{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    height: 40px;
+    padding-top: 10px;
+   
+   
+    
+}
